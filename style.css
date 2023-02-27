@@ -3,17 +3,29 @@
 }
 
 body {
-    display: flex;
     min-width: 100vw;
     min-height: 100vh;
+    margin: 0;
 }
 
-.left-container {
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    border: 2px solid red;
+    height: 100vh;
+
+    background-image: url("fatty-corgi-unsplash.jpeg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
 }
 
-.right-container {
-    width: 100%;
-    border: 2px solid red;
+.sign-up-container {
+    display: flex;
+    width: 40%;
+    height: 40%;
+
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
