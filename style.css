@@ -49,8 +49,6 @@ label {
 
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
-
-    border: 2px solid black;
 }
 
 /* First Name and Last Name Container */
@@ -59,22 +57,18 @@ label {
     flex-wrap: wrap;
     padding: 10px 10px;
     gap: 20px;
-
-    border: 2px solid black;
 }
 
 .first-name {
     flex: 1;
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
 }
 
 .last-name {
     flex: 1;
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
 }
 
 
@@ -83,8 +77,6 @@ label {
     display: flex;
     flex-direction: column;
     padding: 10px 10px;
-
-    border: 2px solid black;
 }
 
 /* Password Container */
@@ -94,29 +86,24 @@ label {
     justify-content: space-between;
     padding: 10px 10px;
     gap: 20px;
-
-    border: 2px solid black;
 }
 
 .password1 {
     flex: 1;
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
 }
 
 .password2 {
     flex: 1;
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
 }
 
 /* Checkbox Container */
 .checkbox-container {
     display: flex;
     padding: 15px 10px;
-    border: 2px solid black;
 }
 
 /* Last Container */
@@ -125,14 +112,9 @@ label {
     flex-direction: column;
     gap: 15px;
     padding: 15px 10px;
-    border: 2px solid black;
 }
 
 /* Button container */
-.button {
-    border: 2px solid red;
-}
-
 button {
     border: none;
     background-color: #FFD580;
@@ -144,7 +126,6 @@ button {
 
 /* Login container  */
 .login {
-    border: 2px solid red;
     padding-left: 10px;
 }
 
