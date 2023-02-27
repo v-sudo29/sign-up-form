@@ -101,6 +101,7 @@ input {
 
 .checkbox-container label {
     position: relative;
+    font-weight: 400;
     top: 3px;
 }
 
