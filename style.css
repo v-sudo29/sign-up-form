@@ -95,6 +95,8 @@ label {
     justify-content: space-between;
     padding: 10px 10px;
     gap: 20px;
+
+    border: 2px solid black;
 }
 
 .password1 {
@@ -109,4 +111,11 @@ label {
     display: flex;
     flex-direction: column;
     border: 2px solid red;
+}
+
+/* Checkbox Container */
+.checkbox-container {
+    display: flex;
+    padding: 15px 10px;
+    border: 2px solid black;
 }
