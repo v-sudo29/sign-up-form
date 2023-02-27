@@ -33,7 +33,7 @@ label {
 .sign-up-container {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
     min-width: 30%;
 
     background-color: white;
@@ -45,7 +45,7 @@ label {
 /* Sign-Up Text */
 .sign-up-text {
     display: flex;
-    justify-content: center;
+    padding: 10px 10px;
 
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -103,7 +103,13 @@ label {
 /* Checkbox Container */
 .checkbox-container {
     display: flex;
-    padding: 15px 10px;
+    gap: 3px;
+    padding: 5px 10px;
+}
+
+.checkbox-container label {
+    position: relative;
+    top: 3px;
 }
 
 /* Last Container */
