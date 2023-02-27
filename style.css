@@ -42,7 +42,7 @@ label {
 }
 
 .textbox {
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     border: none;
     appearance: none;
     -webkit-appearance: none;
@@ -51,7 +51,8 @@ label {
 
     border: 2px solid #ddd;
     border-radius: 3px;
-    font-size: 15px;
+    font-size: 17px;
+    padding: 0 5px;
 }
 
 /* Sign Up Container */
