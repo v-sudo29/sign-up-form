@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 :root {
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 body {
     width: 100vw;
     height: 100vh;
     margin: 0;
+
+    font-family: Helvetica, sans-serif;
 }
 
 label {
@@ -118,4 +117,38 @@ label {
     display: flex;
     padding: 15px 10px;
     border: 2px solid black;
+}
+
+/* Last Container */
+.last-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 10px;
+    border: 2px solid black;
+}
+
+/* Button container */
+.button {
+    border: 2px solid red;
+}
+
+button {
+    border: none;
+    background-color: #FFD580;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 5px 40px;
+}
+
+/* Login container  */
+.login {
+    border: 2px solid red;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
 }
