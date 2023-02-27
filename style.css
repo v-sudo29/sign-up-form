@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root {
     box-sizing: border-box;
 }
@@ -21,12 +23,26 @@ body {
     background-position: center;
 }
 
+/* Sign Up Container */
 .sign-up-container {
     display: flex;
+    flex-direction: column;
     width: 40%;
     height: 40%;
 
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+/* Sign-Up Text */
+.sign-up-text {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+
+    border: 2px solid black;
 }
