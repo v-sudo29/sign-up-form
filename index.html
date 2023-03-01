@@ -14,43 +14,45 @@
             <div class="sign-up-text">
                 Register
             </div>
-            <div class="first-last-container">
-                <div class="first-name">
-                    <label for="firstname">First Name</label>
-                    <input class="change-length textbox" type="text" id="firstname">
+            <form action="" method="post">
+                <div class="first-last-container">
+                    <div class="first-name">
+                        <label for="firstname">First Name</label>
+                        <input class="change-length textbox" type="text" id="firstname" required>
+                    </div>
+                    <div class="last-name" id="lastname">
+                        <label for="lastname">Last Name</label>
+                        <input class="change-length textbox" type="text" required>
+                    </div>
                 </div>
-                <div class="last-name" id="lastname">
-                    <label for="lastname">Last Name</label>
-                    <input class="change-length textbox" type="text">
+                <div class="email-container">
+                    <label for="email">Email</label>
+                    <input class="textbox" type="email" id="email" name="usermail" placeholder="yourname@example.com" required>
                 </div>
-            </div>
-            <div class="email-container">
-                <label for="email">Email</label>
-                <input class="textbox" type="email" id="email" name="usermail" placeholder="yourname@example.com">
-            </div>
-            <div class="password-container">
-                <div class="password1">
-                    <label for="pass1">Password</label>
-                    <input class="change-length textbox" type="password" id="pass1">
+                <div class="password-container">
+                    <div class="password1">
+                        <label for="pass1">Password</label>
+                        <input class="change-length textbox" type="password" id="pass1" required>
+                    </div>
+                    <div class="password2">
+                        <label for="pass2">Confirm Password</label>
+                        <input class="change-length textbox" type="password" id="pass2" required>
+                    </div>
                 </div>
-                <div class="password2">
-                    <label for="pass2">Confirm Password</label>
-                    <input class="change-length textbox" type="password" id="pass2">
+                <div class="checkbox-container">
+                    <input class="checkbox" type="checkbox" id="check" name="check">
+                    <label for="check">Yes, I want to receive DOGE emails</label>
+                        
                 </div>
-            </div>
-            <div class="checkbox-container">
-                <input class="checkbox" type="checkbox" id="check" name="check">
-                <label for="check">Yes, I want to receive DOGE emails</label>
-                    
-            </div>
-            <div class="last-container">
-                <div class="button">
-                    <button type="submit">Create Account</button>
-                </div>
-                <div class="login">
-                    Already have an account? <a href="">Log in</a>
-                </div>
-            </div>
+                <div class="last-container">
+                    <div class="button">
+                        <button type="submit">Create Account</button>
+                    </div>
+                    <div class="login">
+                        Already have an account? <a href="">Log in</a>
+                    </div>
+                </div>   
+            </form> 
         </div>
         <div class="credits">Art by <a href="https://unsplash.com/@fattycorgi" target="_blank">fatty.corgi</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a></div>
     </div>
